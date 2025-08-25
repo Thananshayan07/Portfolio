@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T. Portfolio</title>
+    <link rel="icon" href="images\Title Photo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"> 
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle">
+        <div class="container">
+            <div class="logo">T.THANANSHAYAN</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <div class="menu-btn" for="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="text">
+                    <h1>Hi, I'm <span class="name">THAVARSA THANANSHAYAN</span></h1>
+                    <h2 class="typing-text">I'm an <span class="typing"></span></h2>
+                    <p>ICT student at Rajarata University of Sri Lanka, passionate about delivering intelligent, future-ready solutions. </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/vijipavi" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thavarajah-thananshayan-565853297/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="https://drive.google.com/file/d/1ioaRSBNrLfPZx9tPGsTCXZyqJ3t0PT4j/view?usp=sharing" class="btn secondary">Download CV</a>
+                </div>
+                <div class="image">
+                    <div class="image-container">
+                        <img src="images\Profile 1.JPG" alt="Profile Image">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-box">
+                        <img src="images\Profile 2.JPG" alt="About Image">
+                        <div class="circle-spin"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>ICT Student & Developer</h3>
+                    <p>I’m an enthusiastic ICT student who loves software development and web technologies. With good programming skills and a passion for solving problems, I am to create useful and creative solutions that can truly help people and businesses.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Birthday:</span>
+                            <p>25 May 2003</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Age:</span>
+                            <p>22</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Degree:</span>
+                            <p>Bachelor of ICT</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Experience:</span>
+                            <p>1 year</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Phone:</span>
+                            <p>0769426419</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <p>thavarajahthananshayan@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Address:</span>
+                            <p>153,Athisaya vinayakar road ellainagar Chenkalady Batticaloa. </p>
+                        </div>
+                        <div class="info-item">
+                            <span>Freelance:</span>
+                            <p>Not Available</p>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#projects" class="btn">View Projects</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">My <span>Journey</span></h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <h3 class="title">Education</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar"></i> 2019</div>
+                                <h3>🎓 Ordinary Level Examination</h3>
+                                <p>Eravur TMV school</p>
+                                <p>Completed G.C.E. O/L with 3B, 4C and 2S. This stage was where my curiosity in technology and structured thinking began to grow.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar"></i> 2019 - 2022</div>
+                                <h3>📘 Advanced Level – Technology Stream</h3>
+                                <p>Sithandi MMV school</p>
+                                <p>Studied ICT, SFT , and ENT. I achieved 1A , 1B and 1S. This stream helped me develop a strong technical mindset and digital literacy.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar"></i> 2024 - Present</div>
+                                <h3>🏫 Undergraduate</h3>
+                                <p> Rajarata University of Sri Lanka</p>
+                                <p>Currently pursuing a 4-year BICT (Honours) degree at Rajarata University. My university journey has been hands-on, with real-world projects in IoT, Machine Learning, AI automation, and Web Development—preparing me to innovate, build, and lead in tech.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-column">
+                    <h3 class="title">Experience</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar"></i> 2025 - Present</div>
+                                <h3>Software Development</h3>
+                                <p>Developing web applications using React and Node.js</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar"></i> 2025</div>
+                                <h3>Web Developer</h3>
+                                <p>Created responsive websites and web applications for clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">ICT <span>Projects</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="app">App Dev</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+            </div>
+            <div class="projects-container">
+                <div class="project-box" data-category="web">
+                    <div class="project-img">
+                        <img src="images\Portfolio Website.png" alt="Project 4">
+                        <div class="project-overlay">
+                            <h3>Portfolio Website</h3>
+                            <p>Modern responsive portfolio website</p>
+                            <div class="project-tech">
+                                <span class="technical-badge">HTML/CSS</span>
+                                <span class="technical-badge">JavaScript</span>
+                                <span class="technical-badge">GSAP</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box" data-category="web">
+                    <div class="project-img">
+                        <img src="images\Chatbot image.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>AI Voice Assistant</h3>
+                           <p>Python-based voice assistant that listens and responds basic tasks using AI.</p>
+
+                            <div class="project-tech">
+                                <span class="technical-badge">Python</span>
+                                <span class="technical-badge">SpeechRecognition</span>
+                                <span class="technical-badge">pyttsx3</span>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box" data-category="app">
+                    <div class="project-img">
+                        <img src="images\face-recognition.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>Task Management App</h3>
+                            <p>Cross-platform task management application</p>
+                            <div class="project-tech">
+                                <span class="technical-badge">Flutter</span>
+                                <span class="technical-badge">Firebase</span>
+                                <span class="technical-badge">Dart</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box" data-category="data">
+                    <div class="project-img">
+                        <img src="images\Customer analysis dashboard.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <h3>Customer Analytics Dashboard</h3>
+                            <p>Data visualization for customer behavior analysis</p>
+                            <div class="project-tech">
+                                <span class="technical-badge">Python</span>
+                                <span class="technical-badge">Tableau</span>
+                                <span class="technical-badge">SQL</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-box" data-category="app">
+                    <div class="project-img">
+                        <img src="images\Health tracker app.jpg" alt="Project 5">
+                        <div class="project-overlay">
+                            <h3>Health Tracker App</h3>
+                            <p>Mobile application for health monitoring</p>
+                            <div class="project-tech">
+                                <span class="technical-badge">React Native</span>
+                                <span class="technical-badge">Redux</span>
+                                <span class="technical-badge">API Integration</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box" data-category="data">
+                    <div class="project-img">
+                        <img src="images\Smart home.jpg" alt="Project 6">
+                        <div class="project-overlay">
+                            <h3>Smart Home system using AWS</h3>
+                            <p>Machine learning model for equipment failure prediction</p>
+                            <div class="project-tech">
+                                <span class="technical-badge">Python</span>
+                                <span class="technical-badge">TensorFlow</span>
+                                <span class="technical-badge">IoT</span>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">Development Skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>UI/UX Design <span>80%</span></h3>
+                                <div class="bar"><span style="width: 80%"></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Python <span>70%</span></h3>
+                                <div class="bar"><span style="width: 70%"></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Web Developing <span>50%</span></h3>
+                                <div class="bar"><span style="width: 50%"></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Graphics designer <span>50%</span></h3>
+                                <div class="bar"><span style="width: 50%"></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>JavaScript <span>45%</span></h3>
+                                <div class="bar"><span style="width: 45%"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3 class="title">Technical Skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>Database Management <span>20%</span></h3>
+                                <div class="bar"><span style="width: 20%"></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Cloud Computing <span>10%</span></h3>
+                                <div class="bar"><span style="width: 10%"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-icons">
+                <div class="icon-box">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-row">
+                <div class="contact-column">
+                    <h3 class="title">Get in Touch</h3>
+                    <div class="contact-info">
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Address</h4>
+                                <p>153,Athisaya vinayakar road ellainagar Chenkalady Batticaloa.</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Phone</h4>
+                                <p>0769426419</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Email</h4>
+                                <p>thavarajahthananshayan@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="text">
+                                <h4>University</h4>
+                                <p>Rajarata University of Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/vijipavi"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thavarajah-thananshayan-565853297/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-column">
+                    <h3 class="title">Message Me</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    
+                </div>
+                <div class="footer-icon">
+                    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+   <script src="script2.js"></script>
+</body>
+</html>
